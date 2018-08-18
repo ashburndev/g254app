@@ -526,5 +526,12 @@ drwxr-xr-x  3 ashburndave ashburndave  4096 Aug 18 08:08 target
 drwxr-xr-x 11 ashburndave ashburndave  4096 Aug 18 09:49 .
 drwxr-xr-x  8 ashburndave ashburndave  4096 Aug 18 09:50 .git
 ashburndave@dphnuc4:~/g2projects/g254app$ 
+ashburndave@dphnuc4:~/g2projects/g254app$ cat application.properties 
+#Grails Metadata file
+#Sat Aug 18 08:06:07 EDT 2018
+app.grails.version=2.5.4
+app.name=g254app
+app.version=0.1
+ashburndave@dphnuc4:~/g2projects/g254app$ 
 ```
 
