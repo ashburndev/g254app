@@ -17,35 +17,6 @@ git push -u origin master
 ```
 
 ```
-ashburndave@dphnuc4:/opt/grails/bin$ history | tail -20
- 1803  cd
- 1804  cd Downloads/
- 1805  ls -latr
- 1806  jar tvf grails-3.3.8.zip
- 1807  jar xf grails-3.3.8.zip
- 1808  ls -latr
- 1809  sudo mv grails-3.3.8 /opt
- 1810  cd /opt
- 1811  ls -latr
- 1812  history
- 1813  ls -latr
- 1814  rm grails
- 1815  sudo rm grails
- 1816  sudo ln -s grails-3.3.8 grails
- 1817  grails --version
- 1818  cd /opt/grails/bin
- 1819  ls -la
- 1820  chmod 777 *
- 1821  grails --version
- 1822  history | tail -20
-ashburndave@dphnuc4:/opt/grails/bin$ grails --version
-| Grails Version: 3.3.8
-| Groovy Version: 2.4.15
-| JVM Version: 1.8.0_162
-ashburndave@dphnuc4:/opt/grails/bin$ 
-```
-
-```
 ashburndave@dphnuc4:~/g2projects/g254app$ tree .
 .
 ├── application.properties
@@ -525,6 +496,35 @@ test - Dependencies needed for test compilation and execution but not at runtime
 |    \--- org.liquibase:liquibase-core:2.0.5
 +--- org.grails.plugins:jquery:1.11.1
 
+ashburndave@dphnuc4:~/g2projects/g254app$ 
+```
+
+```
+ashburndave@dphnuc4:~/g2projects/g254app$ 
+ashburndave@dphnuc4:~/g2projects/g254app$ date
+Sat Aug 18 09:57:22 EDT 2018
+ashburndave@dphnuc4:~/g2projects/g254app$ pwd
+/home/ashburndave/g2projects/g254app
+ashburndave@dphnuc4:~/g2projects/g254app$ ls -latr
+total 104
+drwxr-xr-x  4 ashburndave ashburndave  4096 Aug 18 08:06 src
+drwxr-xr-x  4 ashburndave ashburndave  4096 Aug 18 08:06 test
+drwxr-xr-x  2 ashburndave ashburndave  4096 Aug 18 08:06 scripts
+drwxr-xr-x  2 ashburndave ashburndave  4096 Aug 18 08:06 lib
+drwxr-xr-x  7 ashburndave ashburndave  4096 Aug 18 08:06 web-app
+drwxr-xr-x 11 ashburndave ashburndave  4096 Aug 18 08:06 grails-app
+-rw-r--r--  1 ashburndave ashburndave  1003 Aug 18 08:06 .classpath
+-rw-r--r--  1 ashburndave ashburndave   480 Aug 18 08:06 .project
+-rw-r--r--  1 ashburndave ashburndave   110 Aug 18 08:06 application.properties
+drwxr-xr-x  2 ashburndave ashburndave  4096 Aug 18 08:06 wrapper
+-rwxr--r--  1 ashburndave ashburndave  9604 Aug 18 08:06 grailsw
+-rw-r--r--  1 ashburndave ashburndave  5972 Aug 18 08:06 grailsw.bat
+drwxr-xr-x  9 ashburndave ashburndave  4096 Aug 18 08:06 ..
+drwxr-xr-x  3 ashburndave ashburndave  4096 Aug 18 08:08 target
+-rw-r--r--  1 ashburndave ashburndave   215 Aug 18 08:10 .gitignore
+-rw-r--r--  1 ashburndave ashburndave 22594 Aug 18 09:49 README.md
+drwxr-xr-x 11 ashburndave ashburndave  4096 Aug 18 09:49 .
+drwxr-xr-x  8 ashburndave ashburndave  4096 Aug 18 09:50 .git
 ashburndave@dphnuc4:~/g2projects/g254app$ 
 ```
 
